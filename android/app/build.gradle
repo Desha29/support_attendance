@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.support_attendance"
+    namespace  = "com.example.support_attendance"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
