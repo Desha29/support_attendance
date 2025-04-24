@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 
@@ -24,9 +26,9 @@ class _ScanScreenState extends State<ScanScreen> {
       qrText = value;
       isScanned = true;
     });
-
+  
     debugPrint('Scanned QR Code: $value');
-    // TODO: Handle scanned result, e.g., save to Firestore or navigate
+    
   }
 
   @override

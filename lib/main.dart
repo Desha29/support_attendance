@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
             title: 'Attendance App',
             theme: context
                 .watch<ThemeCubit>()
-                .state, // Get the current theme from the cubit
+                .state, 
             home: const HomeScreen(),
           );
         },

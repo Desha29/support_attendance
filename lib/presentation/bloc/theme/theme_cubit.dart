@@ -6,12 +6,12 @@ import '../../../common/theme/app_theme.dart';
 class ThemeCubit extends Cubit<ThemeData> {
   ThemeCubit() : super(AppTheme.lightTheme);
 
-  bool _isDarkMode = false;
+  bool _isDark = false;
 
-  bool get isDarkMode => _isDarkMode;
+  bool get isDarkMode => _isDark;
 
   void toggleTheme() {
-    _isDarkMode = !_isDarkMode;
-    emit(_isDarkMode ? AppTheme.darkTheme : AppTheme.lightTheme);
+    _isDark = !_isDark;
+    emit(_isDark ? AppTheme.darkTheme : AppTheme.lightTheme);
   }
 }
